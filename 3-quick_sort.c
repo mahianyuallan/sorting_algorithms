@@ -31,6 +31,7 @@ int partition(int *array, int low, int high, size_t size)
 	{
 		if (array[y] <= pivot)
 		{
+
 			x++;
 			if (x != y)
 			{
