@@ -9,6 +9,7 @@ void swap(listint_t *a, listint_t *b, listint_t **head)
 {
 	listint_t *aux1 = NULL, *aux2 = NULL;
 
+
 	if (a == NULL || b == NULL)
 		return;
 	aux1 = a->prev;
