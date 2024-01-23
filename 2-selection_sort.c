@@ -14,7 +14,6 @@ int locate_min(int *array, int index, size_t size)
 	int min, idx_min;
 	int i;
 
-
 	min = array[index];
 	idx_min = index;
 	for (i = index; i < (int)size; i++)
