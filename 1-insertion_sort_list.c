@@ -40,7 +40,6 @@ void insertion_sort_list(listint_t **list)
 		return;
 	}
 	head = *list;
-
 	while (head)
 	{
 		prev = head->prev;
